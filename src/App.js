@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import baseStyles from './base-styles';
+import Tile from './blocks/Tile';
+
+import logoImage from './assets/logo.png';
+import tileImage from './assets/tile.jpg';
 
 class App extends Component {
   render() {
+    baseStyles();
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Tile>
+        <Tile.Image src={tileImage}></Tile.Image>
+        <Tile.Strip>
+          <Tile.Logo src={logoImage}></Tile.Logo>
+          <Tile.H1>Home and Away</Tile.H1>
+        </Tile.Strip>
+      </Tile>
     );
   }
 }
