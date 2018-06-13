@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tile block renders correctly 1`] = `
+.c1 {
+  width: 100%;
+  display: block;
+}
+
+.c3 {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 1rem 0 0;
+}
+
+.c2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  background: rgba(0,0,0,.7);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.c4 {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.c0 {
+  position: relative;
+  width: 100%;
+  max-width: 30rem;
+}
+
+<div
+  className="c0"
+>
+  <img
+    className="c1"
+    src=""
+  />
+  <div
+    className="c2"
+  >
+    <img
+      className="c3"
+      src=""
+    />
+    <h1
+      className="c4"
+    >
+      text
+    </h1>
+  </div>
+</div>
+`;
